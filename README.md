@@ -57,7 +57,7 @@ Download the template from the repository's release tab as a zip file.
 
 If you encounter issues or need assistance, feel free to contact me.
 
-- Discord: rohan_ohio
-- MCPE: RohanPlayz1080
+- Discord: `rohan_ohio`
+- MCPE: `RohanPlayz1080`
 
 Happy coding!
