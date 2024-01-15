@@ -1,2 +1,2 @@
 # CommandHandler
-My Command Handler Made In JavaScript For Minecraft Bedrock.
+This is my simple and straightforward command handler.
