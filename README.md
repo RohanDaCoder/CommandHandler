@@ -26,9 +26,11 @@ Follow These Steps.
 4. Follow this pattern:
 
 ```javascript
+import { config } from '../config.js'
 const command = {
     name: 'ping', // Command name here
     description: 'Ping Pong', // Description here
+    usage: `${config.prefix}ping`
     execute(chat, player, args) {
         // Command code here
         player.sendMessage(`Pong!`);
@@ -49,9 +51,9 @@ Note: **Do not modify `help.js` as it will work out of the box.**
 - To view available commands: `.help`
 - To get help for a specific command: `.help <command>`
 
-## Template
+## Download
 
-Download the template from the repository's release tab as a zip file.
+Download the template from [here](https://github.com/RohanDaCoder/CommandHandler/releases/download/Handler/CommandHandler.zip)
 
 ## Thanks for Using!
 
