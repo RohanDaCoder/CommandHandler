@@ -3,7 +3,7 @@
 Welcome to the beginner-friendly Minecraft Bedrock Addon Command Handler! This tool simplifies command creation for new addon developers.
 
 ## Getting Started
-
+- Obviously get the files at first...
 ### Configuration
 
 - Easily change the command prefix in `config.js`.
@@ -23,9 +23,9 @@ export const config = {
 Follow These Steps.
 
 1. Open `config.js`.
-2. Add your command name to the `commands` array.
+2. Add your command name to the `commands` array. 
 3. Create a file inside `cmds/` with your command name (e.g., `cmds/ping.js`).
-4. Follow this pattern:
+4. Use This Boilerplate for building a new command:
 
 ```javascript
 import { config } from '../config.js'
@@ -42,14 +42,8 @@ export default command;
 ```
 
 ### Help Command
-![Help Command](https://cdn.discordapp.com/attachments/1006913737250328627/1196441045068681236/Screenshot_2024_0115_190633_com.mojang.minecraftpe.png?ex=65b7a38d&is=65a52e8d&hm=cc1e9d7b076e7d7b7b46a1eb67d4928ee4537a0beaa69a8d671dca234e0f5b17&)
-There's an inbuilt help command.
-
-Note: **Do not modify `help.js` as it will work out of the box.**
-- Download or copy `help.js` from the repository.
-
-## Usage
-
+![Help Command](https://cdn.discordapp.com/attachments/1006913737250328627/1196441045068681236/Screenshot_2024_0115_190633_com.mojang.minecraftpe.png?ex=65b7a38d&is=65a52e8d&hm=cc1e9d7b0javascript6a1eb67d4928ee4537a0beaa69a8d671dca234e0f5b17&)
+Want To Know The best part? It comes with a handy help command no need to create one.
 - To view available commands: `.help`
 - To get help for a specific command: `.help <command>`
 
