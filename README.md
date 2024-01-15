@@ -17,7 +17,8 @@ export const config = {
 };
 ```
 
-### Command Handler
+### How to create a Command?
+Follow These Steps.
 
 1. Open `config.js`.
 2. Add your command name to the `commands` array.
