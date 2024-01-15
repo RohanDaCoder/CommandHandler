@@ -22,7 +22,7 @@ const command = {
             for (const commandName of config.commands) {
                 const importedCommand = await importCommand(player, commandName);
                 if (importedCommand) {
-                    helpMessage += `§e${config.prefix}${commandName}§r - ${importedCommand.description}\n`;
+                    helpMessage += `§e${config.prefix}${commandName}§r - ${importedCommand.description} - ${importedCommand.usage}\n`;
                 }
             }
 
@@ -32,7 +32,7 @@ const command = {
             if (config.commands.includes(specifiedCommand)) {
                 const importedCommand = await importCommand(player, specifiedCommand);
                 if (importedCommand) {
-                    player.sendMessage(`§a${config.prefix}${specifiedCommand}§r - ${importedCommand.description}`);
+                    player.sendMessage(`§a${config.prefix}${specifiedCommand}§r - ${importedCommand.description} - ${importedCommand.usage}`);
                 }
             } else {
                 player.sendMessage(`§cInvalid command specified: ${specifiedCommand}`);
