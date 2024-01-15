@@ -17,7 +17,7 @@ export const config = {
 };
 ```
 
-### How to create a Command?
+### How To Create a Command?
 Follow These Steps.
 
 1. Open `config.js`.
