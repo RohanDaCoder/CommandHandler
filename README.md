@@ -18,6 +18,8 @@ export const config = {
 ```
 
 ### How To Create a Command?
+![Ping Command](https://cdn.discordapp.com/attachments/1006913737250328627/1196441045408436305/Screenshot_2024_0115_190747_com.mojang.minecraftpe.png?ex=65b7a38e&is=65a52e8e&hm=9bf373ed7bd1060a0f7859f9a9051f83b918b5c8e9cf4b3c4ad18b598d4f41e0&)
+
 Follow These Steps.
 
 1. Open `config.js`.
@@ -40,7 +42,7 @@ export default command;
 ```
 
 ### Help Command
-
+![Help Command](https://cdn.discordapp.com/attachments/1006913737250328627/1196441045068681236/Screenshot_2024_0115_190633_com.mojang.minecraftpe.png?ex=65b7a38d&is=65a52e8d&hm=cc1e9d7b076e7d7b7b46a1eb67d4928ee4537a0beaa69a8d671dca234e0f5b17&)
 There's an inbuilt help command.
 
 Note: **Do not modify `help.js` as it will work out of the box.**
