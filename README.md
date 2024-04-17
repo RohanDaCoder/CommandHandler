@@ -18,7 +18,7 @@ export const config = {
 ```
 
 ### How To Create a Command?
-![Ping Command](https://raw.githubusercontent.com/RohanDaCoder/CommandHandler/main/assets/ping.png)
+![Ping Command](https://raw.githubusercontent.com/RohanDaCoder/CommandHandler/main/assets/pong.png)
 
 Follow These Steps.
 
