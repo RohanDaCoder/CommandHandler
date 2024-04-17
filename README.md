@@ -18,7 +18,7 @@ export const config = {
 ```
 
 ### How To Create a Command?
-![Ping Command](https://cdn.discordapp.com/attachments/1006913737250328627/1196441045408436305/Screenshot_2024_0115_190747_com.mojang.minecraftpe.png?ex=65b7a38e&is=65a52e8e&hm=9bf373ed7bd1060a0f7859f9a9051f83b918b5c8e9cf4b3c4ad18b598d4f41e0&)
+![Ping Command](https://raw.githubusercontent.com/RohanDaCoder/CommandHandler/main/assets/ping.png)
 
 Follow These Steps.
 
@@ -42,7 +42,7 @@ export default command;
 ```
 
 ### Help Command
-![Help Command](https://cdn.discordapp.com/attachments/1006913737250328627/1196441045068681236/Screenshot_2024_0115_190633_com.mojang.minecraftpe.png?ex=65b7a38d&is=65a52e8d&hm=cc1e9d7b0javascript6a1eb67d4928ee4537a0beaa69a8d671dca234e0f5b17&)
+![Help Command](https://raw.githubusercontent.com/RohanDaCoder/CommandHandler/main/assets/help.png)
 Want To Know The best part? It comes with a handy help command no need to create one.
 - To view available commands: `.help`
 - To get help for a specific command: `.help <command>`
